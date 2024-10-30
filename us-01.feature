@@ -4,3 +4,6 @@ Como agricultor, quiero recibir alertas sobre cambios climáticos importantes pa
     Given que el usuario quiere recibir alertas sobre cambios climaticos
     When el usuario esta en la aplicacion y quiere tomar decisiones rapidas 
     Then  recibe notificaciones de alertas para prevenir perdidas
+ Examples:
+ 
+      |Servicios| 
