@@ -1,16 +1,15 @@
-Feature: Searching for TestCafe by Google
+Feature: Tutorial de la pagina web
+Como usuario nuevo, quiero tener un tutorial interactivo que me guíe en el uso de la plataforma, para poder comenzar sin dificultad. 
+  Scenario: Tutorial 
+    Given que el usuario quiere un tutorial interactivo para que se pueda guiar
+    When el usuario usa la plataforma 
+    Then  Se desplegara una ventana donde aparecera un tutorial
 
-  I want to find TestCafe repository by Google search
-
-  Scenario: Searching for TestCafe by Google
-    Given I am open Google's search page
-    When I am typing my search request "github TestCafe" on Google
-    Then I press the "enter" key on Google
-    Then I should see that the first Google's result is "GitHub - DevExpress/testcafe:"
+Example:
+        | Inicio    | Inicio      |
+        | Servicios | Servicios   |
+        | Contacto  | Contacto    |
+        | Nosotros  | Nosotros    |
 
 
-  Scenario: Failing scenario
-    Given I am open Google's search page
-    When I am typing my search request "github TestCafe" on Google
-    Then I press the "enter" key on Google
-    Then I should see that the first Google's result is "kittens"
+ 
